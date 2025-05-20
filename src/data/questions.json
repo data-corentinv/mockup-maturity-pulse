@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Is there a standardized ML pipeline for model training and deployment?",
+      "pillarId": "p1",
+      "lifecycleStage": "mvp",
+      "info": {
+        "what": "A standardized ML pipeline ensures consistent model training and deployment processes.",
+        "why": "Standardization reduces errors, improves reproducibility, and enables scaling.",
+        "example": "Using tools like MLflow or Kubeflow to manage the entire ML lifecycle."
+      }
+    },
+    {
+      "id": "q2",
+      "text": "Are data requirements clearly defined and documented?",
+      "pillarId": "p1",
+      "lifecycleStage": "ideation",
+      "info": {
+        "what": "Data requirements refer to determining the specific data needed for training, validating, and testing machine learning models.",
+        "why": "Clear data requirements ensure quality, format consistency, and compliance with privacy regulations.",
+        "example": "Documenting required data sources, formats, storage needs, and governance considerations."
+      }
+    },
+    {
+      "id": "q3",
+      "text": "Is there a governance verification and risk assessment process?",
+      "pillarId": "p1",
+      "lifecycleStage": "poc",
+      "info": {
+        "what": "Evaluating and ensuring that the governance framework is effectively designed.",
+        "why": "Proper governance ensures compliance with regulations and manages risks effectively.",
+        "example": "Implementing policies for data privacy, model deployment, version control, and security."
+      }
+    },
+    {
+      "id": "q1",
+      "text": "Here is a question about compliance?",
+      "pillarId": "p2",
+      "lifecycleStage": "poc",
+      "info": {
+        "what": "xxx",
+        "why": "xx",
+        "example": "xx"
+      }
+    }
+  ]
+}

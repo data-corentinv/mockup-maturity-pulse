@@ -1,0 +1,29 @@
+{
+  "products": {
+    "claims-1": {
+      "current": {
+        "fundamentals": {"score": 90 },
+        "reliability": {"score": 80 },
+        "repeatability": {"score": 65 },
+        "scalability": { "score": 70 }
+      },
+      "history": [
+        {
+          "date": "2024-12-20",
+          "fundamentals": {
+            "score": 40
+          },
+          "reliability": {
+            "score": 35
+          },
+          "repeatability": {
+            "score": 30
+          },
+          "scalability": {
+            "score": 25
+          }
+        } 
+      ]
+    }
+  }
+}

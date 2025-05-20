@@ -1,0 +1,37 @@
+{
+  "products": {
+    "claims-1": {
+      "current": {
+        "strategic_alignment": {"score": 85},
+        "governance_organization": {"score": 70},
+        "inventory_documentation": {"score": 75},
+        "risk_management": {"score": 80},
+        "tooling": {"score": 65},
+        "culture_people": {"score": 75}
+      },
+      "history": [
+        {
+          "date": "2024-12-20",
+          "strategic_alignment": {
+            "score": 40
+          },
+          "governance_organization": {
+            "score": 35
+          },
+          "inventory_documentation": {
+            "score": 45
+          },
+          "risk_management": {
+            "score": 30
+          },
+          "tooling": {
+            "score": 25
+          },
+          "culture_people": {
+            "score": 75
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "products": {
+    "claims-1": {
+      "bugs": 12,
+      "vulnerabilities": 3,
+      "codeSmells": "B",
+      "coverage": 82.5,
+      "duplications": 2.8,
+      "securityHotspots": 5,
+      "links": {
+        "sonarcloud": "https://sonarcloud.io/project/overview?id=aignostics_python-sdk",
+        "coverage": "https://sonarcloud.io/component_measures?id=aignostics_python-sdk&metric=coverage",
+        "bugs": "https://sonarcloud.io/project/issues?id=aignostics_python-sdk&resolved=false&types=BUG",
+        "vulnerabilities": "https://sonarcloud.io/project/issues?id=aignostics_python-sdk&resolved=false&types=VULNERABILITY",
+        "codeSmells": "https://sonarcloud.io/project/issues?id=aignostics_python-sdk&resolved=false&types=CODE_SMELL",
+        "securityHotspots": "https://sonarcloud.io/project/security_hotspots?id=aignostics_python-sdk"
+      }
+    }
+  }
+}

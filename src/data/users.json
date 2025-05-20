@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "entity": "all",
+      "role": "admin"
+    },
+    {
+      "username": "john.doe@axa.com",
+      "password": "tobedefined",
+      "entity": "FR",
+      "role": "user"
+    },
+    {
+      "username": "jane.doe@axa.com",
+      "password": "tobedefined",
+      "entity": "BE",
+      "role": "user"
+    }
+  ]
+}

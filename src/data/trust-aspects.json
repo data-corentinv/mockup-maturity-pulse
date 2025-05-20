@@ -1,0 +1,66 @@
+{
+  "products": {
+    "claims-1": {
+      "transparency": {
+        "score": 85,
+        "metrics": [
+          {
+            "name": "Feature Interpretability",
+            "value": 90,
+            "description": "Model features are well-documented and interpretable"
+          },
+          {
+            "name": "Decision Explanation",
+            "value": 40,
+            "description": "Model decisions can be explained using SHAP values"
+          }
+        ]
+      },
+      "fairness": {
+        "score": 50,
+        "metrics": [
+          {
+            "name": "Demographic Parity",
+            "value": 78,
+            "description": "Model predictions are balanced across demographic groups"
+          },
+          {
+            "name": "Equal Opportunity",
+            "value": 72,
+            "description": "True positive rates are similar across groups"
+          }
+        ]
+      },
+      "robustness": {
+        "score": 82,
+        "metrics": [
+          {
+            "name": "Adversarial Resistance",
+            "value": 85,
+            "description": "Model is resistant to adversarial attacks"
+          },
+          {
+            "name": "Distribution Shift",
+            "value": 79,
+            "description": "Model performs well under data distribution shifts"
+          }
+        ]
+      },
+      "accountability": {
+        "score": 88,
+        "metrics": [
+          {
+            "name": "Model Logging",
+            "value": 90,
+            "description": "Comprehensive logging of model decisions and changes"
+          },
+          {
+            "name": "Audit Trail",
+            "value": 86,
+            "description": "Complete audit trail of model development and deployment"
+          }
+        ]
+      }
+    }
+  }
+}

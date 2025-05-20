@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "claims-1",
+      "name": "Claims Fraud Detection AI",
+      "description": "AI system for detecting fraudulent claims using pattern recognition",
+      "businessUnit": "Claims",
+      "axaEntity": "FR",
+      "businessDomain": "P&C Retail Claims",
+      "lifecycleStage": "pilot",
+      "businessInfo": {
+        "problem": "Manual fraud detection is time-consuming and prone to human error, leading to increased losses from fraudulent claims and delayed processing of legitimate claims.",
+        "domain": "Claims",
+        "riskLevel": "high",
+        "kpis": [
+          {
+            "name": "Fraud Detection Rate",
+            "target": "95%",
+            "current": "92%",
+            "trend": "up"
+          },
+          {
+            "name": "False Positive Rate",
+            "target": "<5%",
+            "current": "7%",
+            "trend": "down"
+          },
+          {
+            "name": "Processing Time",
+            "target": "<24h",
+            "current": "36h",
+            "trend": "down"
+          }
+        ],
+        "accountability": [
+          {
+            "name": "Marie Dubois",
+            "role": "Senior Data Scientist",
+            "email": "marie.dubois@axa.com",
+            "type": "model"
+          },
+          {
+            "name": "Thomas Laurent",
+            "role": "ML Engineer",
+            "email": "thomas.laurent@axa.com",
+            "type": "deployment"
+          },
+          {
+            "name": "Sophie Martin",
+            "role": "Data Engineer",
+            "email": "sophie.martin@axa.com",
+            "type": "data"
+          },
+          {
+            "name": "Jean Bernard",
+            "role": "Product Manager",
+            "email": "jean.bernard@axa.com",
+            "type": "product"
+          },
+          {
+            "name": "Sarah Johnson",
+            "role": "Head of Claims Analytics",
+            "email": "sarah.johnson@axa.com",
+            "type": "business"
+          }
+        ],
+        "links": {
+          "confluence": "https://confluence.axa.com/claims/fraud-detection",
+          "jira": "https://jira.axa.com/projects/CFD",
+          "repository": "https://github.com/axa/claims-fraud-detection",
+          "sharepoint": "https://axagroupsolutions.sharepoint.com/sites/claims-fraud-detection"
+        }
+      },
+      "assessments": [
+        {
+          "id": "a1",
+          "date": "2024-12-20",
+          "scores": [
+            { "pillarId": "p1", "score": 40 },
+            { "pillarId": "p2", "score": 20 },
+            { "pillarId": "p3", "score": 10 },
+            { "pillarId": "p4", "score": 10 },
+            { "pillarId": "p5", "score": 10 },
+            { "pillarId": "p6", "score": 30 }
+          ],
+          "overallScore": 20
+        },
+        {
+          "id": "a2",
+          "date": "2025-03-10",
+          "scores": [
+            { "pillarId": "p1", "score": 75 },
+            { "pillarId": "p2", "score": 80 },
+            { "pillarId": "p3", "score": 70 },
+            { "pillarId": "p4", "score": 85 },
+            { "pillarId": "p5", "score": 65 },
+            { "pillarId": "p6", "score": 80 }
+          ],
+          "overallScore": 76
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "pillars": [
+    {
+      "id": "p1",
+      "name": "MLOps Maturity",
+      "description": "Assessment of fundamentals, reliability, repeatability, and scalability",
+      "color": "#1E40AF"
+    },
+    {
+      "id": "p2",
+      "name": "AI Governance",
+      "description": "Evaluation of compliance, literacy, and governance practices",
+      "color": "#047857"
+    },
+    {
+      "id": "p3",
+      "name": "AI Trust",
+      "description": "Assessment of transparency, fairness, robustness, sustainability, and accountability",
+      "color": "#7E22CE"
+    },
+    {
+      "id": "p4",
+      "name": "Model Performance",
+      "description": "Evaluation of model cards, metrics, versioning, and artifacts",
+      "color": "#B91C1C"
+    },
+    {
+      "id": "p5",
+      "name": "Code Quality",
+      "description": "Assessment of vulnerabilities, bugs, code smells, coverage, and hotspot reviews",
+      "color": "#C2410C"
+    },
+    {
+      "id": "p6",
+      "name": "Engineering Excellence",
+      "description": "Evaluation of development practices, delivery pipeline, operations, and infrastructure",
+      "color": "#0369A1"
+    }
+  ]
+}

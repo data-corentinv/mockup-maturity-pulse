@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "p1": [
+      {
+        "id": "fundamentals",
+        "title": "Fundamentals",
+        "description": "Basic requirements and setup for MLOps practices"
+      },
+      {
+        "id": "reliability",
+        "title": "Reliability",
+        "description": "Ensuring consistent and dependable ML operations"
+      },
+      {
+        "id": "repeatability",
+        "title": "Repeatability",
+        "description": "Ability to reproduce ML processes and results"
+      },
+      {
+        "id": "scalability",
+        "title": "Scalability",
+        "description": "Capacity to handle growing ML workloads"
+      }
+    ],
+    "p2": [
+      {
+        "id": "strategic-alignment",
+        "title": "Strategic Alignment",
+        "description": "Alignment of AI initiatives with business strategy and objectives"
+      },
+      {
+        "id": "governance-organization",
+        "title": "Governance & Organization",
+        "description": "Organizational structure and governance framework for AI"
+      },
+      {
+        "id": "inventory-documentation",
+        "title": "Inventory & Documentation",
+        "description": "Management and documentation of AI assets and processes"
+      },
+      {
+        "id": "risk-management",
+        "title": "Risk Management",
+        "description": "Identification and mitigation of AI-related risks"
+      },
+      {
+        "id": "tooling",
+        "title": "Tooling",
+        "description": "Tools and platforms supporting AI governance"
+      },
+      {
+        "id": "culture-people",
+        "title": "Culture & People",
+        "description": "Building an AI-aware culture and developing talent"
+      }
+    ],
+    "p3": [
+      {
+        "id": "transparency",
+        "title": "Transparency",
+        "description": "Clear understanding of model decisions"
+      },
+      {
+        "id": "fairness",
+        "title": "Fairness",
+        "description": "Ensuring unbiased model behavior"
+      },
+      {
+        "id": "robustness",
+        "title": "Robustness",
+        "description": "Model stability and resilience"
+      },
+      {
+        "id": "accountability",
+        "title": "Accountability",
+        "description": "Model stability and resilience"
+      }
+    ],
+    "p4": [
+      {
+        "id": "metrics",
+        "title": "Model Metrics",
+        "description": "Performance measurement and tracking"
+      },
+      {
+        "id": "versioning",
+        "title": "Model Versioning",
+        "description": "Version control and model lifecycle management"
+      },
+      {
+        "id": "artifacts",
+        "title": "Model Artifacts",
+        "description": "Management of model-related assets"
+      }
+    ],
+    "p5": [
+      {
+        "id": "quality",
+        "title": "Code Quality",
+        "description": "Code standards and best practices"
+      },
+      {
+        "id": "testing",
+        "title": "Testing",
+        "description": "Comprehensive testing practices"
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "description": "Code and infrastructure security measures"
+      }
+    ],
+    "p6": [
+      {
+        "id": "development",
+        "title": "Development Practices",
+        "description": "Software development methodologies and standards"
+      },
+      {
+        "id": "delivery",
+        "title": "Delivery Pipeline",
+        "description": "Continuous integration and deployment practices"
+      },
+      {
+        "id": "operations",
+        "title": "Operations",
+        "description": "Operational excellence and maintenance"
+      }
+    ]
+  }
+}
