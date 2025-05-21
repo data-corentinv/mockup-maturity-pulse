@@ -125,6 +125,16 @@
         "id": "operations",
         "title": "Operations",
         "description": "Operational excellence and maintenance"
+      },
+      {
+        "id": "qulity",
+        "title": "Quality",
+        "description": ""
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "description": ""
       }
     ]
   }

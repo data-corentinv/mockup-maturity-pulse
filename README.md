@@ -61,7 +61,7 @@ AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML 
 
 ## Project Structure
 
-```
+```sh
 src/
 ├── components/         # Reusable UI components
 │   ├── assessment/    # Assessment-related components
@@ -72,6 +72,21 @@ src/
 ├── pages/             # Page components
 └── types/             # TypeScript type definitions
 ```
+
+## Next steps | Idea
+
+- Test entity model cards imports
+- Py Scripts
+  - Update questions from csv files (e.g. Maturity Matrix)
+  - Create product from .md file (model cards)
+  - Compute and Update score from assessments
+- CICD with Github Actions
+- Host webapp - deployment
+- Create WebAPI
+- Migration DB (e.g. duckdb)
+- Datalake PoC
+- Get Confluence, Github Pages documentations
+  - Create VectorDB
 
 ## Assessment Pillars
 

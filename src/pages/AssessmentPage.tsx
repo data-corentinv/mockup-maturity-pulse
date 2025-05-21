@@ -103,7 +103,6 @@ const AssessmentPage: React.FC<AssessmentPageProps> = ({
   const handleComplete = async () => {
     const score = calculateScore();
     
-    // Log assessment results
     try {
       await logAssessment({
         productName: product.name,
@@ -117,10 +116,8 @@ const AssessmentPage: React.FC<AssessmentPageProps> = ({
       });
     } catch (error) {
       console.error('Failed to log assessment:', error);
-      // Continue with the assessment completion even if logging fails
     }
 
-    // Check if we should advance to the next lifecycle stage
     const currentStage = product.lifecycleStage;
     const nextStage = getNextLifecycleStage(currentStage);
     const shouldAdvance = stageProgress[currentStage] >= 80 && nextStage;
@@ -158,14 +155,7 @@ const AssessmentPage: React.FC<AssessmentPageProps> = ({
   if (!selectedPillar) return null;
 
   const getQuestionsForSection = (sectionId: string): Question[] => {
-    const sectionCount = sections.length;
-    const questionsPerSection = Math.ceil(pillarQuestions.length / sectionCount);
-    const sectionIndex = sections.findIndex(s => s.id === sectionId);
-    
-    return pillarQuestions.slice(
-      sectionIndex * questionsPerSection,
-      (sectionIndex + 1) * questionsPerSection
-    );
+    return pillarQuestions.filter(q => q.sectionId === sectionId);
   };
 
   const getLifecycleColor = (stage: LifecycleStage): string => {
@@ -237,16 +227,21 @@ const AssessmentPage: React.FC<AssessmentPageProps> = ({
             </div>
             
             <div className="space-y-8">
-              {sections.map(section => (
-                <QuestionSection
-                  key={section.id}
-                  title={section.title}
-                  description={section.description}
-                  questions={getQuestionsForSection(section.id)}
-                  currentAnswers={answers}
-                  onAnswerSelected={handleAnswerSelected}
-                />
-              ))}
+              {sections.map(section => {
+                const sectionQuestions = getQuestionsForSection(section.id);
+                if (sectionQuestions.length === 0) return null;
+                
+                return (
+                  <QuestionSection
+                    key={section.id}
+                    title={section.title}
+                    description={section.description}
+                    questions={sectionQuestions}
+                    currentAnswers={answers}
+                    onAnswerSelected={handleAnswerSelected}
+                  />
+                );
+              })}
             </div>
             
             <div className="flex justify-between mt-8">

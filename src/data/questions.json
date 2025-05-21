@@ -1,43 +1,287 @@
 {
   "questions": [
     {
-      "id": "q1",
-      "text": "Is there a standardized ML pipeline for model training and deployment?",
+      "id": "C100",
+      "text": "Data Requirements",
       "pillarId": "p1",
+      "sectionId": "fundamentals",
+      "lifecycleStage": "ideation",
+      "info": {
+        "what": "Data requirements refer to determining the specific data needed for training, validating, and testing machine learning models. This includes identifying the quality, format, storage, and governance considerations for the data, as well as ensuring compliance with privacy and regulatory requirements.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "C71",
+      "text": "The feature configuration is separated from its code.",
+      "pillarId": "p1",
+      "sectionId": "fundamentals",
       "lifecycleStage": "mvp",
       "info": {
-        "what": "A standardized ML pipeline ensures consistent model training and deployment processes.",
-        "why": "Standardization reduces errors, improves reproducibility, and enables scaling.",
-        "example": "Using tools like MLflow or Kubeflow to manage the entire ML lifecycle."
+        "what": "The seperation of the feature configuration from the core code, means that the settings and configurations related to the features used in a machine learning model are managed independently from the core model code, which allows for more flexibility, easier experimentation, and promotes reusability across multiple models.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "C152",
+      "text": "You use  Notebooks for EDA.",
+      "pillarId": "p1",
+      "sectionId": "fundamentals",
+      "lifecycleStage": "poc",
+      "info": {
+        "what": "This capability involves leveraging notebooks to perform Exploratory Data Analysis (EDA).",
+        "why": "Allows for interactive data exploration, visualization, and preprocessing in a flexible and iterative manner.",
+        "example": "Examples: Jupyter Notebook for interactive EDA with Python, Google Colab for cloud-based EDA and collaboration, Zeppelin for multi-language EDA in data science projects."
+      }
+    },
+    {
+      "id": "C10",
+      "text": "You integrated AI Governance tools.",
+      "pillarId": "p1",
+      "sectionId": "reliability",
+      "lifecycleStage": "pilot",
+      "info": {
+        "what": "This integration involves the implementation of tools and processes to oversee and regulate the development, deployment, and management of AI models, ensuring adherence to ethical standards, compliance with regulations, and alignment with organizational policies.",
+        "why": "",
+        "example": "Example : Collibra, Amazon SageMaker, Credo AI, etc | Source : https://github.com/visenger/Awesome-ML-Model-Governance"
+      }
+    },
+    {
+      "id": "C105",
+      "text": "Model performance test (resources consemption, comparison with pervious models).",
+      "pillarId": "p1",
+      "sectionId": "reliability",
+      "lifecycleStage": "mvp",
+      "info": {
+        "what": "This capability involves testing a model's performance in terms of resource consumption (CPU, GPU, memory usage) and comparing it with previous model versions to ensure performance improvements. Resource efficiency is important to avoid performance bottlenecks and ensure scalability.",
+        "why": "",
+        "example": "Example: TensorBoard for tracking performance metrics across different model versions., Prometheus  and Grafana  for monitoring resource consumption during model training and inference, MLflow for tracking and comparing model performance."
+      }
+    },
+    {
+      "id": "C108",
+      "text": "Set up a production environment miroring the preproduction one.",
+      "pillarId": "p1",
+      "sectionId": "reliability",
+      "lifecycleStage": "rollout",
+      "info": {
+        "what": "The focus is on ensuring reliability by thoroughly testing the model in an environment that closely resembles the production environment before deployment.",
+        "why": "",
+        "example": "An example of this capability in action could be a company developing a recommendation system for an e-commerce platform. Before deploying the recommendation model into the production environment, the company sets up a pre-production environment that mirrors the production environment as closely as possible in terms of infrastructure, datasets, and configurations. In this mirrored pre-production environment, the recommendation model undergoes rigorous testing, including performance testing, A/B testing, and validation against real-world data to ensure its reliability and effectiveness. Any issues or discrepancies identified during this testing phase are addressed before the model is promoted to the production environment."
+      }
+    },
+    {
+      "id": "C175",
+      "text": "Automated retraining strategy if relevant.",
+      "pillarId": "p1",
+      "sectionId": "repeatability",
+      "lifecycleStage": "rollout",
+      "info": {
+        "what": "This would involve implementing a process that automatically triggers model retraining when new relevant data is available. For example, using a tool like Apache Airflow to schedule and orchestrate the retraining process based on specified conditions, such as the arrival of new data or a predefined time interval. This ensures that the deployed model is kept up to date and reflective of the latest information, contributing to the repeatability and reliability of the CI/CD pipelines in the MLOps workflow.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "C14",
+      "text": "You set up Virtual Environments for dependencies management.",
+      "pillarId": "p1",
+      "sectionId": "repeatability",
+      "lifecycleStage": "poc",
+      "info": {
+        "what": "Setting up virtual environments involves creating isolated environments to manage dependencies for machine learning projects. Virtual environments help avoid dependency conflicts and ensure that each project runs with its required libraries and versions without affecting other projects.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "C1",
+      "text": "Automated deployment pipeline is triggered automatically.",
+      "pillarId": "p1",
+      "sectionId": "scalability",
+      "lifecycleStage": "rollout",
+      "info": {
+        "what": "Could involve using tools like Jenkins, GitLab CI/CD, or GitHub Actions to set up automated workflows that are triggered by code changes or new releases. For instance, when new code is merged into the main branch or when a new version of the model is tagged, the automated deployment pipeline is automatically triggered. This ensures a scalable and efficient deployment process, allowing for seamless and consistent deployment of machine learning models.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "C3",
+      "text": "The release management is automated",
+      "pillarId": "p1",
+      "sectionId": "scalability",
+      "lifecycleStage": "rollout",
+      "info": {
+        "what": "Automated release management refers to the process of automatically managing the release of machine learning models into production environments. This includes versioning, testing, and deploying the model without manual intervention, ensuring smooth and reliable rollouts.",
+        "why": "",
+        "example": "Examples: Jenkins, GitLab CI, or Azure DevOps for automating model releases.Argo CD for GitOps-based automated release management."
+      }
+    },
+    {
+      "id": "q1",
+      "text": "XX?",
+      "pillarId": "p2",
+      "sectionId": "governance-organization",
+      "lifecycleStage": "poc",
+      "info": {
+        "what": "xxx",
+        "why": "xx",
+        "example": "xx"
       }
     },
     {
       "id": "q2",
-      "text": "Are data requirements clearly defined and documented?",
-      "pillarId": "p1",
+      "text": "XX?",
+      "pillarId": "p2",
+      "sectionId": "strategic-alignment",
+      "lifecycleStage": "rollout",
+      "info": {
+        "what": "xxx",
+        "why": "xx",
+        "example": "xx"
+      }
+    },
+    {
+      "id": "acc1",
+      "text": "Validate the need, value and purpose of the AI system",
+      "pillarId": "p3",
+      "sectionId": "accountability",
       "lifecycleStage": "ideation",
       "info": {
-        "what": "Data requirements refer to determining the specific data needed for training, validating, and testing machine learning models.",
-        "why": "Clear data requirements ensure quality, format consistency, and compliance with privacy regulations.",
-        "example": "Documenting required data sources, formats, storage needs, and governance considerations."
+        "what": "Using AI instead of other solutions comes with higher risks, covered in this document. Therefore, it is first and foremost important to assess whether AI is indeed needed for the project, and what value (both for AXA and its customers) it brings. Besides, it is crucial to make sure the purpose of the AI system is directly aligned with the business use it is intended for. It should be also clear that it is aligned with AXA’s values and business strategy.",
+        "why": "",
+        "example": ""
       }
     },
     {
-      "id": "q3",
-      "text": "Is there a governance verification and risk assessment process?",
-      "pillarId": "p1",
+      "id": "acc2",
+      "text": "Ensure accountability of the AI system and its outcomes.",
+      "pillarId": "p3",
+      "sectionId": "accountability",
       "lifecycleStage": "poc",
       "info": {
-        "what": "Evaluating and ensuring that the governance framework is effectively designed.",
-        "why": "Proper governance ensures compliance with regulations and manages risks effectively.",
-        "example": "Implementing policies for data privacy, model deployment, version control, and security."
+        "what": "The responsibility of the different stakeholders in the construction of the AI system should be ensured, especially in cases when any adverse or unfair impact occurs.",
+        "why": "",
+        "example": ""
       }
     },
     {
-      "id": "q1",
-      "text": "Here is a question about compliance?",
-      "pillarId": "p2",
+      "id": "acc3",
+      "text": "Ensure that the chosen KPIs are aligned to the purpose.",
+      "pillarId": "p3",
+      "sectionId": "accountability",
+      "lifecycleStage": "mvp",
+      "info": {
+        "what": "The choice of the success metrics for the AI system (e.g. prediction accuracy of a machine learning model) should be aligned with the final KPI measuring success for the project. The choice of the metrics should be well-motivated and well-weighed against their alternatives.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "rob1",
+      "text": "Test the AI system in limit cases.",
+      "pillarId": "p3",
+      "sectionId": "robustness",
+      "lifecycleStage": "mvp",
+      "info": {
+        "what": "The behavior of the system in limit cases should be tested and validated. Limit cases include, for example: data errors (e.g. bad input entered by a user), out-of-distribution yet realistic outliers, distribution shift, etc.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "rob2",
+      "text": "Plan the ongoing monitoring strategy of the AI system.",
+      "pillarId": "p3",
+      "sectionId": "robustness",
+      "lifecycleStage": "pilot",
+      "info": {
+        "what": "When the system is deployed, the data distribution might shift, possibly hurting its performance over time or causing its malfunctioning. It is therefore important to design a strategy to evaluate and control the system over time, including the identification of possible issues and their monitoring. Moreover, this process and the results over time should be documented.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "rob3",
+      "text": "Anticipate and mitigate the risks of malfunctioning.",
+      "pillarId": "p3",
+      "sectionId": "robustness",
+      "lifecycleStage": "pilot",
+      "info": {
+        "what": "There are numerous reasons that would lead an AI system to malfunction. From common prediction errors to failures on the production side or errors in the input data, the consequences of these issues need to be anticipated, and mitigation strategies should be developed to limit these harms.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "fair1",
+      "text": "Involve people from diverse background in your project team(as much as possible).",
+      "pillarId": "p3",
+      "sectionId": "fairness",
+      "lifecycleStage": "ideation",
+      "info": {
+        "what": "Team diversity is key to challenge how a project is conducted. Involving diverse mindsets and ideas, especially from people who represent the ‘sensitive’ sub-groups, can help reduce human bias and can also lead to next perspectives on how a project should be conducted and delivered.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "fair2",
+      "text": "Define what discrimination or unfairness mean in your STAKEHOLDERS project.",
+      "pillarId": "p3",
+      "sectionId": "fairness",
+      "lifecycleStage": "pilot",
+      "info": {
+        "what": "It is crucial to understand what discrimination means in the context of your project. As mentioned above, discrimination can take various forms, leading to some populations being unfairly treated. The populations vulnerable to these risks should be identified, and the impacts of these discriminations well understood.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "fair3",
+      "text": "Identify what would be the appropriate Fairness metric.",
+      "pillarId": "p3",
+      "sectionId": "fairness",
       "lifecycleStage": "poc",
+      "info": {
+        "what": "A proper quantitative assessment of the identified bias should be then conducted.To help you in this task of choosing the appropriate fairness metrics, you may use AXA’s fairness compass (link below).",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "trans1",
+      "text": "Identify the interpretability needs of the stakeholders.",
+      "pillarId": "p3",
+      "sectionId": "transparency",
+      "lifecycleStage": "ideation",
+      "info": {
+        "what": "Understanding the needs in terms of interpretability of all the stakeholders involved is crucial. Moreover, it is important to plan in advance how interpretability will be implemented in practice.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "trans2",
+      "text": "Choose an interpretability method well-suited for the identified needs.",
+      "pillarId": "p3",
+      "sectionId": "transparency",
+      "lifecycleStage": "mvp",
+      "info": {
+        "what": "Depending on the interpretability needs identified, numerous approaches and resources are available. As interpretability is a subjective and complex notion, there is no one size fits all solution that is going to meet all possible desiderata. Depending on the assumptions they rely on, some approaches may thus be suited for some scenarios and stakeholders, but impractical for others. For these reasons, the choice of the methods to use for each system-stakeholder interaction should be well-motivated and made while bearing in mind their limitations.",
+        "why": "",
+        "example": ""
+      }
+    },
+    {
+      "id": "inf1",
+      "text": "XX?",
+      "pillarId": "p6",
+      "sectionId": "infrastructure",
+      "lifecycleStage": "mvp",
       "info": {
         "what": "xxx",
         "why": "xx",

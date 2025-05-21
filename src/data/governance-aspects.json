@@ -2,12 +2,24 @@
   "products": {
     "claims-1": {
       "current": {
-        "strategic_alignment": {"score": 85},
-        "governance_organization": {"score": 70},
-        "inventory_documentation": {"score": 75},
-        "risk_management": {"score": 80},
-        "tooling": {"score": 65},
-        "culture_people": {"score": 75}
+        "strategic_alignment": {
+          "score": 85
+        },
+        "governance_organization": {
+          "score": 70
+        },
+        "inventory_documentation": {
+          "score": 75
+        },
+        "risk_management": {
+          "score": 80
+        },
+        "tooling": {
+          "score": 65
+        },
+        "culture_people": {
+          "score": 75
+        }
       },
       "history": [
         {

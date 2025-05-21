@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "claims-1",
-      "name": "Claims Fraud Detection AI",
+      "name": "[Example] Claims Fraud Detection AI",
       "description": "AI system for detecting fraudulent claims using pattern recognition",
       "businessUnit": "Claims",
       "axaEntity": "FR",
