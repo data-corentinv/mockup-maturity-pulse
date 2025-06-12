@@ -1,4 +1,4 @@
-# AXA Maturity Pulse (Mockup)
+# Maturity Pulse (Mockup)
 
 A comprehensive AI/ML project maturity assessment tool built with React and TypeScript.
 
