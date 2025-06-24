@@ -12,26 +12,6 @@ AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML 
 - Model Performance
 - Code Quality
 
-## Features
-
-- 📊 Interactive maturity assessment dashboard
-- 📌 Pinnable products for quick access
-- 📈 Detailed pillar-specific analytics
-- 🔍 SonarQube integration for code quality metrics
-- 📋 Comprehensive assessment questionnaires
-- 📱 Responsive design for all devices
-- 📊 Radar charts for visual maturity tracking
-- 🔄 Historical assessment comparisons
-
-## Tech Stack
-
-- React 18
-- TypeScript
-- Tailwind CSS
-- Vite
-- SWR for data fetching
-- Lucide React for icons
-
 ## Getting Started
 
 ### Prerequisites
@@ -58,6 +38,36 @@ AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML 
    ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Features
+
+### Auth page
+
+![auth](_static/auth-page.png)
+
+### Products page
+
+![auth](_static/products-page.png)
+
+### Product page of Maturity Result page
+
+![auth](_static/product-page.png)
+
+### Strategy page
+
+![auth](_static/strategy-page.png)
+
+### AI Lifecycle page
+
+![auth](_static/ai-lifecycle-page.png)
+
+### Heatmat page
+
+![auth](_static/heatmap-page.png)
+
+### Trustworthy AI page
+
+![auth](_static/tai-page.png)
 
 ## Project Structure
 
@@ -92,17 +102,6 @@ src/
 
 Coming soon.
 
-## Contributing
+## Useful links
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Acknowledgments
-
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-- [Lucide Icons](https://lucide.dev/)
+Coming soon.
