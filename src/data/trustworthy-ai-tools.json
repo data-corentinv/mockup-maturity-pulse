@@ -1,0 +1,166 @@
+{
+  "transparency": [
+    {
+      "name": "SHAP",
+      "description": "Python library for explaining machine learning models using Shapley values",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://shap.readthedocs.io/",
+      "github": "https://github.com/slundberg/shap",
+      "documentation": "https://shap.readthedocs.io/",
+      "category": "explainability",
+      "popularity": 5,
+      "license": "MIT",
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "name": "LIME",
+      "description": "Local Interpretable Model-agnostic Explanations",
+      "type": "library",
+      "language": ["Python", "R"],
+      "url": "https://lime-ml.readthedocs.io/",
+      "github": "https://github.com/marcotcr/lime",
+      "category": "explainability",
+      "popularity": 4,
+      "license": "BSD-2-Clause",
+      "lastUpdated": "2023-11-20"
+    },
+    {
+      "name": "InterpretML",
+      "description": "Microsoft's library for interpretable machine learning",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://interpret.ml/",
+      "github": "https://github.com/interpretml/interpret",
+      "category": "explainability",
+      "popularity": 4,
+      "license": "MIT",
+      "lastUpdated": "2024-02-01"
+    },
+    {
+      "name": "Alibi",
+      "description": "Algorithms for explaining machine learning models",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://docs.seldon.io/projects/alibi/",
+      "github": "https://github.com/SeldonIO/alibi",
+      "category": "explainability",
+      "popularity": 3,
+      "license": "Apache-2.0",
+      "lastUpdated": "2024-01-10"
+    }
+  ],
+  "fairness": [
+    {
+      "name": "Fairlearn",
+      "description": "Microsoft's toolkit for assessing and improving fairness in machine learning",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://fairlearn.org/",
+      "github": "https://github.com/fairlearn/fairlearn",
+      "category": "fairness",
+      "popularity": 5,
+      "license": "MIT",
+      "lastUpdated": "2024-01-20"
+    },
+    {
+      "name": "AIF360",
+      "description": "IBM's comprehensive toolkit for fairness in AI",
+      "type": "library",
+      "language": ["Python", "R"],
+      "url": "https://aif360.mybluemix.net/",
+      "github": "https://github.com/Trusted-AI/AIF360",
+      "category": "fairness",
+      "popularity": 4,
+      "license": "Apache-2.0",
+      "lastUpdated": "2024-01-25"
+    },
+    {
+      "name": "Themis",
+      "description": "Library for fairness-aware machine learning",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://github.com/cosmicBboy/themis-ml",
+      "github": "https://github.com/cosmicBboy/themis-ml",
+      "category": "fairness",
+      "popularity": 2,
+      "license": "MIT",
+      "lastUpdated": "2023-08-15"
+    }
+  ],
+  "robustness": [
+    {
+      "name": "Adversarial Robustness Toolbox",
+      "description": "IBM's library for adversarial attacks and defenses",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://adversarial-robustness-toolbox.readthedocs.io/",
+      "github": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+      "category": "robustness",
+      "popularity": 4,
+      "license": "MIT",
+      "lastUpdated": "2024-02-10"
+    },
+    {
+      "name": "CleverHans",
+      "description": "Library for benchmarking vulnerability of machine learning systems",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://cleverhans.readthedocs.io/",
+      "github": "https://github.com/cleverhans-lab/cleverhans",
+      "category": "robustness",
+      "popularity": 4,
+      "license": "MIT",
+      "lastUpdated": "2023-12-05"
+    },
+    {
+      "name": "Foolbox",
+      "description": "Python toolbox to create adversarial examples",
+      "type": "library",
+      "language": ["Python"],
+      "url": "https://foolbox.readthedocs.io/",
+      "github": "https://github.com/bethgelab/foolbox",
+      "category": "robustness",
+      "popularity": 3,
+      "license": "MIT",
+      "lastUpdated": "2024-01-08"
+    }
+  ],
+  "accountability": [
+    {
+      "name": "MLflow",
+      "description": "Platform for managing the ML lifecycle including experimentation and deployment",
+      "type": "framework",
+      "language": ["Python", "R", "Java"],
+      "url": "https://mlflow.org/",
+      "github": "https://github.com/mlflow/mlflow",
+      "category": "monitoring",
+      "popularity": 5,
+      "license": "Apache-2.0",
+      "lastUpdated": "2024-02-15"
+    },
+    {
+      "name": "DVC",
+      "description": "Data Version Control for machine learning projects",
+      "type": "tool",
+      "language": ["Python"],
+      "url": "https://dvc.org/",
+      "github": "https://github.com/iterative/dvc",
+      "category": "monitoring",
+      "popularity": 4,
+      "license": "Apache-2.0",
+      "lastUpdated": "2024-02-12"
+    },
+    {
+      "name": "Weights & Biases",
+      "description": "Platform for experiment tracking and model management",
+      "type": "service",
+      "language": ["Python", "R"],
+      "url": "https://wandb.ai/",
+      "category": "monitoring",
+      "popularity": 5,
+      "license": "Commercial",
+      "lastUpdated": "2024-02-20"
+    }
+  ]
+}

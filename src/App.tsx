@@ -7,13 +7,14 @@ import AssessmentPage from './pages/AssessmentPage';
 import StrategyView from './pages/StrategyView';
 import LifecyclePage from './pages/LifecyclePage';
 import HeatmapPage from './pages/HeatmapPage';
+import TrustworthyAIPage from './pages/TrustworthyAIPage';
 import ProductList from './components/product/ProductList';
 import { Product } from './types';
 import { products as initialProducts, updateProducts } from './data/mockData';
 
 function App() {
   const { isAuthenticated, user } = useAuth();
-  const [view, setView] = useState<'products' | 'product-detail' | 'assessment' | 'strategy' | 'lifecycle' | 'heatmap'>('products');
+    const [view, setView] = useState<'products' | 'product-detail' | 'assessment' | 'strategy' | 'lifecycle' | 'heatmap' | 'trustworthy-ai'>('products');
   const [products, setProducts] = useState<Product[]>(initialProducts);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [selectedPillarId, setSelectedPillarId] = useState<string | null>(null);
@@ -112,6 +113,8 @@ function App() {
         return <LifecyclePage products={filteredProducts} />;
       case 'heatmap':
         return <HeatmapPage products={filteredProducts} />;
+      case 'trustworthy-ai':
+        return <TrustworthyAIPage />;
       case 'product-detail':
         return selectedProduct ? (
           <ProductDetail 

@@ -1,0 +1,120 @@
+{
+  "transparency": [
+    {
+      "name": "SHAP Values",
+      "description": "SHapley Additive exPlanations - Unified approach to explain model predictions",
+      "interpretation": "Higher absolute values indicate more important features. Positive values increase prediction, negative decrease it.",
+      "category": "explainability",
+      "difficulty": "intermediate",
+      "references": ["https://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions"]
+    },
+    {
+      "name": "LIME Score",
+      "description": "Local Interpretable Model-agnostic Explanations for individual predictions",
+      "interpretation": "Explains individual predictions by learning local interpretable models around predictions.",
+      "category": "explainability",
+      "difficulty": "beginner",
+      "references": ["https://arxiv.org/abs/1602.04938"]
+    },
+    {
+      "name": "Feature Importance",
+      "description": "Measures the contribution of each feature to model predictions",
+      "interpretation": "Higher values indicate more important features for the model's decision-making process.",
+      "category": "explainability",
+      "difficulty": "beginner"
+    },
+    {
+      "name": "Permutation Importance",
+      "description": "Measures feature importance by observing prediction changes when feature values are permuted",
+      "interpretation": "Higher values indicate features that significantly impact model performance when removed.",
+      "category": "explainability",
+      "difficulty": "intermediate"
+    }
+  ],
+  "fairness": [
+    {
+      "name": "Demographic Parity",
+      "description": "Measures if positive prediction rates are equal across groups",
+      "formula": "P(Ŷ=1|A=0) = P(Ŷ=1|A=1)",
+      "interpretation": "Values close to 0 indicate better demographic parity. Perfect parity = 0.",
+      "category": "fairness",
+      "difficulty": "beginner"
+    },
+    {
+      "name": "Equal Opportunity",
+      "description": "Measures if true positive rates are equal across groups",
+      "formula": "P(Ŷ=1|Y=1,A=0) = P(Ŷ=1|Y=1,A=1)",
+      "interpretation": "Values close to 0 indicate better equal opportunity. Perfect equality = 0.",
+      "category": "fairness",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "Equalized Odds",
+      "description": "Combines equal opportunity and equal false positive rates",
+      "formula": "TPR and FPR equal across groups",
+      "interpretation": "Both true positive and false positive rates should be equal across protected groups.",
+      "category": "fairness",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "Calibration",
+      "description": "Measures if predicted probabilities match actual outcomes across groups",
+      "interpretation": "Well-calibrated models have predicted probabilities that match observed frequencies.",
+      "category": "fairness",
+      "difficulty": "advanced"
+    }
+  ],
+  "robustness": [
+    {
+      "name": "Adversarial Accuracy",
+      "description": "Model accuracy under adversarial attacks",
+      "interpretation": "Higher values indicate better robustness to adversarial examples.",
+      "category": "robustness",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "Certified Robustness",
+      "description": "Provable bounds on model robustness within specified perturbation budgets",
+      "interpretation": "Provides mathematical guarantees about model behavior under bounded perturbations.",
+      "category": "robustness",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "Distribution Shift Detection",
+      "description": "Measures model performance degradation under data distribution changes",
+      "interpretation": "Lower degradation indicates better robustness to distribution shifts.",
+      "category": "robustness",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "Input Gradient Norm",
+      "description": "Measures sensitivity of model outputs to input changes",
+      "interpretation": "Lower gradient norms indicate more stable and robust predictions.",
+      "category": "robustness",
+      "difficulty": "intermediate"
+    }
+  ],
+  "accountability": [
+    {
+      "name": "Model Lineage Tracking",
+      "description": "Comprehensive tracking of model development, training, and deployment history",
+      "interpretation": "Complete lineage enables full accountability and reproducibility.",
+      "category": "performance",
+      "difficulty": "beginner"
+    },
+    {
+      "name": "Audit Trail Completeness",
+      "description": "Percentage of model decisions with complete audit trails",
+      "interpretation": "Higher percentages indicate better accountability and traceability.",
+      "category": "performance",
+      "difficulty": "beginner"
+    },
+    {
+      "name": "Compliance Score",
+      "description": "Adherence to regulatory requirements and internal policies",
+      "interpretation": "Higher scores indicate better compliance with governance frameworks.",
+      "category": "performance",
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, TrendingUp, LifeBuoy, Grid } from 'lucide-react';
+import { Box, TrendingUp, LifeBuoy, Grid, Shield } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 
 interface SidebarProps {
   isOpen: boolean;
   activeMenuItem: string;
-  onNavigate: (view: 'products' | 'strategy' | 'lifecycle' | 'heatmap') => void;
+  onNavigate: (view: 'products' | 'strategy' | 'lifecycle' | 'heatmap' | 'trustworthy-ai') => void;
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, activeMenuItem, onNavigate }) => {
@@ -20,6 +20,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, activeMenuItem, onNavigate })
       name: 'Heatmap', 
       icon: <Grid size={18} />,
       adminOnly: true
+    },
+    { 
+      id: 'trustworthy-ai', 
+      name: 'Trustworthy AI', 
+      icon: <Shield size={18} />
     }
   ];
 
