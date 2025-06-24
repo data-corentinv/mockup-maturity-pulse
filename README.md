@@ -1,16 +1,42 @@
 # Maturity Pulse (Mockup)
 
-A comprehensive AI/ML project maturity assessment tool built with React and TypeScript.
+## Table of Contents (ToC)
 
-## Overview
+- [Maturity Pulse (Mockup)](#maturity-pulse-mockup)
+  - [Table of Contents (ToC)](#table-of-contents-toc)
+  - [Why? What? Benefits?](#why-what-benefits)
+    - [Why?](#why)
+  - [What?](#what)
+  - [Benefits](#benefits)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Pages overview](#pages-overview)
+  - [Project Structure](#project-structure)
+  - [Next steps | Idea](#next-steps--idea)
+  - [Assessment Pillars](#assessment-pillars)
+  - [Useful links](#useful-links)
 
-AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML projects across different dimensions:
+## Why? What? Benefits?
 
-- MLOps Maturity
-- AI Governance
-- AI Trust
-- Model Performance
-- Code Quality
+### Why?
+
+- Provide a clear, scalable and objective view of AI product status* across the group.
+- Accelerate operational trust and excellence and feed collaboration and innovation.
+- Empower leaders to steer AI strategy using live-trusted indicators* on project.
+
+## What?
+
+Building verifiable & measurable trust and maturity - we cannot master what we can not measure
+
+![what](_static/what.png)
+
+## Benefits
+
+- **Fewer excel sheets and surveys:** reduce need for manual operating of maturity or documentation with automated maturity feedbacks. #SCALABILITY
+- **Better alignment between tech and leadership:** strengthens communication between tech and decision-makers by speaking a shared maturity language. #MEASURABLE
+- **Better visibility on the AI portfolio:** gives a centralized view of all AI initiatives across the group. #TRANPARENCY
+- **Faster maturity checks:** reinforce quality practices without extra-burden (e.g.  sonar, model cards, etc.).#AUTOMATION
 
 ## Getting Started
 
@@ -39,49 +65,9 @@ AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML 
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Features
+## Pages overview
 
-### Auth page
-
-A secure login page for user authentication.
-
-![auth](_static/auth-page.png)
-
-### Products page
-
-Displays a list of available AI/ML products.
-
-![auth](_static/products-page.png)
-
-### Product page of Maturity Result page
-
-Shows detailed maturity assessment results for a selected product.
-
-![auth](_static/product-page.png)
-
-### Strategy page
-
-Presents strategic recommendations based on assessment results.
-
-![auth](_static/strategy-page.png)
-
-### AI Lifecycle page
-
-Visualizes the stages of the AI/ML project lifecycle.
-
-![auth](_static/ai-lifecycle-page.png)
-
-### Heatmat page
-
-Provides a heatmap view of maturity scores across different dimensions.
-
-![auth](_static/heatmap-page.png)
-
-### Trustworthy AI page
-
-Highlights trust and governance aspects of AI projects.
-
-![auth](_static/tai-page.png)
+![auth](_static/global-overview.png)
 
 ## Project Structure
 
