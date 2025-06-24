@@ -13,7 +13,7 @@ product_name = data1.get('productName')
 pillar_id = data1.get('pillarId')
 
 # Load the second JSON file where the score needs to be updated
-with open('src/data/products.json', 'r') as file2:
+with open('src/data/products.json', 'r', encoding='utf-8') as file2:
     data2 = json.load(file2)
 
 # Find the product and update the score
