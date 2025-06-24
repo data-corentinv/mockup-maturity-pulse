@@ -43,29 +43,43 @@ AXA Maturity Pulse is a tool designed to assess and track the maturity of AI/ML 
 
 ### Auth page
 
+A secure login page for user authentication.
+
 ![auth](_static/auth-page.png)
 
 ### Products page
+
+Displays a list of available AI/ML products.
 
 ![auth](_static/products-page.png)
 
 ### Product page of Maturity Result page
 
+Shows detailed maturity assessment results for a selected product.
+
 ![auth](_static/product-page.png)
 
 ### Strategy page
+
+Presents strategic recommendations based on assessment results.
 
 ![auth](_static/strategy-page.png)
 
 ### AI Lifecycle page
 
+Visualizes the stages of the AI/ML project lifecycle.
+
 ![auth](_static/ai-lifecycle-page.png)
 
 ### Heatmat page
 
+Provides a heatmap view of maturity scores across different dimensions.
+
 ![auth](_static/heatmap-page.png)
 
 ### Trustworthy AI page
+
+Highlights trust and governance aspects of AI projects.
 
 ![auth](_static/tai-page.png)
 
