@@ -1,0 +1,53 @@
+{
+  "productName": "[Example] Claims Fraud Detection AI",
+  "entity": "FR",
+  "businessDomain": "P&C Retail Claims",
+  "pillarId": "p2",
+  "answers": [
+    {
+      "questionId": "q4",
+      "questionText": "Are data quality metrics defined and monitored regularly?",
+      "answer": "yes",
+      "lifecycleStage": "poc"
+    },
+    {
+      "questionId": "q5",
+      "questionText": "Is there a comprehensive data catalog with metadata management?",
+      "answer": "yes",
+      "lifecycleStage": "mvp"
+    },
+    {
+      "questionId": "q6",
+      "questionText": "Can you trace data lineage from source to model predictions?",
+      "answer": null,
+      "lifecycleStage": "pilot"
+    },
+    {
+      "questionId": "q7",
+      "questionText": "Are data access controls and security measures properly implemented?",
+      "answer": "yes",
+      "lifecycleStage": "mvp"
+    },
+    {
+      "questionId": "q8",
+      "questionText": "Is the data architecture scalable and supports real-time processing?",
+      "answer": "yes",
+      "lifecycleStage": "rollout"
+    },
+    {
+      "questionId": "q9",
+      "questionText": "Are data pipelines monitored with alerting for failures and anomalies?",
+      "answer": "yes",
+      "lifecycleStage": "pilot"
+    }
+  ],
+  "score": 83,
+  "timestamp": "2025-07-11T12:42:13.960Z",
+  "user": {
+    "username": "admin",
+    "password": "admin",
+    "entity": "all",
+    "role": "admin"
+  },
+  "pillarName": "Data Quality"
+}
